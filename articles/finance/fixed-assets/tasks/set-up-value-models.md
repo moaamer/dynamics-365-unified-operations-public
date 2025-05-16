@@ -37,7 +37,7 @@ This procedure shows you to how create a new fixed asset book and associate it w
     * The extraordinary depreciation profile is used for additional depreciation of an asset in unusual circumstances. For example, you might use this to record depreciation that results from a natural disaster.
     * If you select **Create depreciation adjustments with basis adjustments**, depreciation adjustments will be automatically created when the value of the asset is updated. Otherwise, the updated asset value will affect only future depreciation calculations.
 
-7. Set the **Create depreciation adjustments with basis adjustments** option to **Yes**.
+7. Set the **Post to general ledger** option to **Yes**.
 
     * By default, fixed asset book transactions are posted to the general ledger. However, you can disable posting to the general ledger for the book by setting the **Post to general ledger** option to **No**. Books that aren't posted to the general ledger are typically used for tax reporting. This option gives you more flexibility to delete historical transactions for the asset book, because the transactions haven't been committed to the general ledger.
     * By default, the **Posting layer** field is set to the **Current layer** if the book is posted to the general ledger and **None** if the book isn't posted to the general ledger. Update the value of the **Posting layer** field if transactions for this book should be posted to a different layer.
